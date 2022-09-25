@@ -75,6 +75,7 @@ hello\njs
 </code></pre>
 
 * 문자열과 숫자를 더하면 문자열이 된다.
+* float 형 계산 시는 int 형 변환 후 계산 -> 실수로 변경.
 
 #### NaN
 * parseInt('문자열');
@@ -89,7 +90,16 @@ typeof NaN
 typeof -Infinity
 </code></pre>
 
+#### boolean
+* 참과 거짓
+<pre><code>
+5 >= 5; // true
+5 <= 4; // false
+</code></pre>
 
+<pre><code>
+NaN == NaN // 유일 false
+</code></pre>
 
 #### Casting
 parseInt('1234');
